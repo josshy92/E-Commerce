@@ -3,17 +3,6 @@ const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
 
-// router.get('/', (req, res) => {
-//   Tag.findAll({
-//     include: [
-//       {
-//         model: Product,
-//         through: ProductTag,
-//       }
-//     ],
-//   }).then((tags) => res.status(200).json(tags));
-// });
-
 router.get('/', (req, res) => {
   Tag.findAll({
     include: [
