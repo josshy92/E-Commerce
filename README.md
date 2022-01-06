@@ -1,5 +1,5 @@
 # E-Commerce
-This app is a simple back end server that allows one to get, update, delete data from a databaase containing products.
+This app is a simple back end server that allows one to get, update, delete data from a database containing products.
 
 # Links
 Repo: https://github.com/josshy92/E-Commerce
